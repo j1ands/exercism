@@ -1,7 +1,3 @@
-// function hello()
-// {
-// 	console.log("hello");
-// }
 var fs = require('fs');	
 var data = fs.readFileSync('README.md', 'utf-8');
 
@@ -33,32 +29,4 @@ var song =
 			  }
 }
 
-// module.exports.hello = hello;
-
-// console.log(module);
-
-//fs.readFile('README.md', 'utf-8', function(err, data)
-//{
-	//if(err) throw "Big Time Error Now!";
-	//console.log(data[9]);
-
-
-//console.log(lyrics[0][100])
-//console.log(lyrics[0].trim());
-//console.log(lyrics[0].replace("\r\n\r",""));
-	//console.log(lyrics[7]);
-//});
-
-// console.log(lyrics[0]);
-// lyrics = lyrics.slice(9);
-// console.log(lyrics[0]);
-
-
-//read from readme
-
-//lyrics = lyrics.split('\n');
-
-
-//console.log(song.verse(8));
-
-//module.exports = song;
+module.exports = song;

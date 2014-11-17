@@ -1,11 +1,11 @@
-//var song = require('./food-chain');
+var song = require('./food-chain');
 
-console.log(song);
+//console.log(song);
 
 
 describe('Food Chain', function () {
 
-  it('fly', function () {
+  xit('fly', function () {
     var expected = "I know an old lady who swallowed a fly.\nI don't know why she swallowed the fly. Perhaps she'll die.\n";
 
     expect(song.verse(1)).toEqual(expected);
@@ -88,7 +88,7 @@ describe('Food Chain', function () {
     expect(song.verse(8)).toEqual(expected);
   });
 
-  xit('multiple verses', function () {
+  it('multiple verses', function () {
     var expected = "";
 
     expected += "I know an old lady who swallowed a fly.\nI don't know why she swallowed the fly. Perhaps she'll die.\n\n";
